@@ -40,4 +40,4 @@ Next steps for this application.
 
 * Migrate Spring Boot application to Spring Cloud microservice.
 * MySQL for persistent storage.
-* Docker container for web readiness.
+* Docker container for cloud readiness.
