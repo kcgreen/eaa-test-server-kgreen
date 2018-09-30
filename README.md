@@ -16,21 +16,21 @@ Server-side application handles requests and responses through J2EE Spring Boot 
 {"id":"59664a26-d497-4615-9337-816d4838674c","givenname":"Marcy","surname":"X","email":"marcy.x@peanuts.org"}]
 ```
 
-## Development server
+## Development Server
 
 Run As Spring Boot App.
 
 Http Verb | Endpoint | Payload Data (JSON) | Result
 --- | --- | --- | --- |
-POST | http://localhost:8080/v1/person/ | {"id":null,"givenname":"Charlie","surname":"Brown","email":"charlie.brown@peanuts.org"} |  Create One
+POST | http://localhost:8080/v1/person/ | {"id":null,<br/>"givenname":"Charlie",<br/>"surname":"Brown",<br/>"email":"charlie.brown@peanuts.org"} |  Create One
 GET | http://localhost:8080/v1/person/ | none | Read All
 GET | http://localhost:8080/v1/person/{id} | none | Read One
-PUT	 | http://localhost:8080/v1/person/{id} | {"id":"e2201e76-a13b-459b-9602-9bc29a264702","givenname":"Charlie","surname":"Brown","email":"charlie.brown@peanuts.org"} |  Update One
+PUT	 | http://localhost:8080/v1/person/{id} | {"id":"e2201e76-a13b-459b-9602-9bc29a264702",<br/>"givenname":"Charlie",<br/>"surname":"Brown",<br/>"email":"charlie.brown@peanuts.org"} |  Update One
 DELETE | http://localhost:8080/v1/person/{id} | none | Delete One
 
 Note: The server is configured to accept CORS from web clients at `http://localhost:4200/` only!
 
-## Development environment
+## Development Environment
 
 This project created in [eclipse](https://www.eclipse.org/downloads/packages/release/neon/3/eclipse-ide-java-ee-developers) Version: Neon.3 Release (4.6.3) with the [Spring STS](https://marketplace.eclipse.org/content/spring-tools-aka-spring-ide-and-spring-tool-suite).
 
