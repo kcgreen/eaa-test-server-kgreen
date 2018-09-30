@@ -1,6 +1,6 @@
 # eaa-test-server-kgreen
 
-### Description
+## Description
 
 Server-side application handles requests and responses through J2EE Spring Boot components implementing CRUD server interfaces for a Person model. The Person model contains an auto-generated ID (UUID), first name, last name, and email address.
 
@@ -27,6 +27,8 @@ GET | http://localhost:8080/v1/person/ | none | Read All
 GET | http://localhost:8080/v1/person/{id} | none | Read One
 PUT	 | http://localhost:8080/v1/person/{id} | {"id":"e2201e76-a13b-459b-9602-9bc29a264702","givenname":"Charlie","surname":"Brown","email":"charlie.brown@peanuts.org"} |  Update One
 DELETE | http://localhost:8080/v1/person/{id} | none | Delete One
+
+Note: The server is configured to accept CORS from web clients at `http://localhost:4200/` only!
 
 ## Development environment
 
