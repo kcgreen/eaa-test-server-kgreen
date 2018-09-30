@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: eaa-test-server-kgreen
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ken_green
+Implementation-Vendor-Id: com.eaa.test
+Build-Jdk: 1.8.0_71
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/eaa-test-server-kgreen
+Created-By: Maven Integration for Eclipse
+
